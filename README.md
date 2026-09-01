@@ -1,6 +1,6 @@
 # I.M Getränke Depot – Website
 
-Praktikumsprojekt: Website für den Getränkeladen **I.M Getränke Depot** in Offenbach am Main.
+Praktikumsprojekt: Website für das **I.M-Getränke Depot UG** in Darmstadt — Cash & Carry / Großhandel.
 Gebaut als einfache statische Seite (HTML/CSS/JS, kein Build-Schritt) – bewusst simpel gehalten,
 damit zwei Personen an zwei Rechnern problemlos parallel daran arbeiten können.
 
@@ -26,5 +26,10 @@ js/script.js    – mobiles Menü, Footer-Jahr
 
 ## Quelle der Basisdaten
 
-Adresse & Telefonnummer über Google-Maps-Eintrag ("I.M Getränke Depot") recherchiert:
-Odenwaldring 86, 63069 Offenbach am Main, Tel. +49 177 3651650.
+Firma und Adresse bestätigt über ein echtes Lieferschein-Foto aus dem Praktikum:
+I.M-Getränke Depot UG (haftungsbeschränkt), Berliner Allee 47, 64295 Darmstadt,
+Ansprechpartner Ilhan Mehmetov.
+
+Die zuerst per Google recherchierte Offenbacher Adresse (Odenwaldring 86) war ein
+falscher Treffer und gehört zu einer anderen Firma — nicht mehr verwenden.
+Die Telefonnummer ist weiterhin unbestätigt.

@@ -5,9 +5,13 @@ Alles, was aktuell auf der Website Platzhalter oder ungeprüft aus einer Google-
 eintragen.
 
 ## 1. Bereits recherchiert, aber NICHT bestätigt (bitte gegenprüfen)
-- [ ] Adresse: Odenwaldring 86, 63069 Offenbach am Main — stimmt das genau so?
-- [ ] Telefonnummer: +49 177 3651650 — ist das die richtige/aktuelle Nummer?
-- [ ] Genauer Name: "I.M Getränke Depot" oder "I.M Depot" oder anders geschrieben?
+- [x] Adresse: Berliner Allee 47, 64295 Darmstadt — bestätigt über Lieferschein-Foto
+- [x] Firmenname: I.M-Getränke Depot UG (haftungsbeschränkt) — laut Lieferschein
+- [x] Ansprechpartner: Ilhan Mehmetov — laut Lieferschein
+- [ ] **Telefonnummer — komplett offen.** Die alte Nummer +49 177 3651650 gehörte zum
+      falschen Offenbach-Treffer und darf NICHT verwendet werden.
+- [ ] Handelsregister-Nr. + Registergericht (Pflichtangabe im Impressum)
+- [ ] USt-IdNr. (falls vorhanden)
 
 ## 2. Komplett geraten / erfunden (muss noch geliefert werden)
 - [ ] **Öffnungszeiten** (Mo–Fr, Sa, So) — aktuell nur "auf Anfrage"

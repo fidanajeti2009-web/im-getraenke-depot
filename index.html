@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>I.M Getränke Depot – Offenbach</title>
-<meta name="description" content="I.M Getränke Depot in Offenbach am Main – Ihr Getränkemarkt für Softdrinks, Bier, Wein, Wasser und mehr. Odenwaldring 86, 63069 Offenbach.">
+<title>I.M Getränke Depot – Großhandel Darmstadt</title>
+<meta name="description" content="I.M Getränke Depot in Darmstadt – Cash &amp; Carry Großhandel für Getränke, Lebensmittel und Gastrobedarf. Für Gastronomie, Handel und Privatkunden. Berliner Allee 47, 64295 Darmstadt.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="site-header">
+<header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="#top" class="logo">I.M <span>Getränke Depot</span></a>
     <nav class="main-nav">
@@ -18,8 +18,8 @@
       </button>
       <ul>
         <li><a href="#sortiment">Sortiment</a></li>
-        <li><a href="#oeffnungszeiten">Öffnungszeiten</a></li>
-        <li><a href="#anfahrt">Anfahrt</a></li>
+        <li><a href="#angebote">Angebote</a></li>
+        <li><a href="#grosshandel">Großbestellung</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </nav>
@@ -28,54 +28,137 @@
 
 <main id="top">
 
-  <section class="hero">
-    <div class="container hero-inner">
-      <h1>Ihr Getränkemarkt<br>in Offenbach</h1>
-      <p>Große Auswahl. Faire Preise. Persönlich vor Ort im Odenwaldring.</p>
+  <section class="hero" style="background-image:url('assets/img/hero-lager.jpg')">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner reveal">
+      <p class="hero-kicker">Cash &amp; Carry Großhandel · Darmstadt</p>
+      <h1>Getränke, Lebensmittel<br>&amp; Gastrobedarf –<br>direkt aus dem Lager.</h1>
+      <p class="hero-text">Wir beliefern Gastronomie, Kioske, Imbisse und Einzelhandel mit Großmengen –
+        und verkaufen genauso an Privatkunden. Große Auswahl, faire Kistenpreise, persönlich vor Ort.</p>
       <div class="hero-actions">
-        <a href="#anfahrt" class="btn btn-primary">Anfahrt anzeigen</a>
-        <a href="tel:+491773651650" class="btn btn-outline">Jetzt anrufen</a>
+        <a href="#sortiment" class="btn btn-primary js-scroll">Sortiment ansehen</a>
+        <a href="#grosshandel" class="btn btn-outline js-scroll">Ich brauche eine Großlieferung</a>
       </div>
     </div>
   </section>
 
-  <section id="sortiment" class="section">
+  <section id="ueber-uns" class="section">
+    <div class="container reveal">
+      <h2>Ihr Großhandel in Darmstadt</h2>
+      <p class="section-lead">
+        Im I.M Getränke Depot in der Berliner Allee finden Sie ein volles Lager statt leerer Regale:
+        Softdrinks und Bier im Kistenpreis, türkische und orientalische Feinkost, dazu alles, was ein
+        Gastronomiebetrieb an Einwegbedarf braucht – von der Serviette bis zur Menübox. Ansprechpartner
+        vor Ort: Ilhan Mehmetov.
+      </p>
+    </div>
+  </section>
+
+  <section id="sortiment" class="section section-alt">
     <div class="container">
-      <h2>Unser Sortiment</h2>
-      <p class="section-lead">Von Erfrischungsgetränken bis zum Feierabendbier – bei uns finden Sie alles für zu Hause und die Feier.</p>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Softdrinks &amp; Säfte</h3>
-          <p>Cola, Limonaden, Schorlen und Fruchtsäfte namhafter Marken.</p>
-        </div>
-        <div class="card">
-          <h3>Wasser</h3>
-          <p>Still und mit Kohlensäure – in verschiedenen Gebindegrößen.</p>
-        </div>
-        <div class="card">
-          <h3>Bier</h3>
-          <p>Regionale und internationale Biere, Kästen und Einzelflaschen.</p>
-        </div>
-        <div class="card">
-          <h3>Wein &amp; Sekt</h3>
-          <p>Für jeden Anlass – vom Alltagswein bis zur Flasche für besondere Momente.</p>
-        </div>
-        <div class="card">
-          <h3>Spirituosen</h3>
-          <p>Ausgewählte Spirituosen für die Hausbar.</p>
-        </div>
-        <div class="card">
-          <h3>Leergut-Rücknahme</h3>
-          <p>Pfandflaschen und -kästen geben Sie bequem bei uns zurück.</p>
-        </div>
+      <h2 class="reveal">Unser Sortiment</h2>
+      <p class="section-lead reveal">Ein Ausschnitt aus unserem Lager – das komplette Sortiment ist deutlich größer.</p>
+
+      <div class="photo-card-grid">
+        <article class="photo-card reveal">
+          <img src="assets/img/sortiment-getraenke.jpg" alt="Coca-Cola Kisten im Lager mit Preisschild">
+          <div class="photo-card-body">
+            <h3>Getränke</h3>
+            <p>Softdrinks, Wasser und Bier im Kistenpreis – alle Coca-Cola-Sorten, 12×1,0&nbsp;l,
+              ab 16,50&nbsp;€ pro Kiste inkl. Pfand.</p>
+          </div>
+        </article>
+        <article class="photo-card reveal">
+          <img src="assets/img/sortiment-lebensmittel.jpg" alt="Preisschilder für Ayran, Joghurt und Käse im Lager">
+          <div class="photo-card-body">
+            <h3>Lebensmittel &amp; Import</h3>
+            <p>Käse, Ayran, Joghurt (10-kg-Eimer), Oliven, Konserven und weitere türkische
+              Spezialitäten in Großgebinden.</p>
+          </div>
+        </article>
+        <article class="photo-card reveal">
+          <img src="assets/img/sortiment-gastro.jpg" alt="Servietten-Karton mit Preisschild im Lager">
+          <div class="photo-card-body">
+            <h3>Gastrobedarf &amp; Einweg</h3>
+            <p>Servietten, Salatboxen, Menüboxen, Alu-Schalen und Becher – alles für den
+              Gastronomiebetrieb, im Karton oder auf Palette.</p>
+          </div>
+        </article>
       </div>
-      <p class="note">Genaues Sortiment und Marken auf Anfrage – sprechen Sie uns gerne an.</p>
+
+      <div class="chip-row reveal">
+        <span class="chip">Wasser</span>
+        <span class="chip">Bier</span>
+        <span class="chip">Softdrinks</span>
+        <span class="chip">Ayran &amp; Joghurt</span>
+        <span class="chip">Käse</span>
+        <span class="chip">Oliven &amp; Konserven</span>
+        <span class="chip">Toilettenpapier &amp; Handtuchrollen</span>
+        <span class="chip">Reinigungsmittel</span>
+        <span class="chip">Servietten</span>
+        <span class="chip">Einweggeschirr</span>
+      </div>
+      <p class="note reveal">Genaues Sortiment und aktuelle Verfügbarkeit auf Anfrage – rufen Sie gerne an oder schauen Sie vorbei.</p>
     </div>
   </section>
 
-  <section id="oeffnungszeiten" class="section section-alt">
+  <section id="angebote" class="section">
+    <div class="container">
+      <h2 class="reveal">Beispielpreise aus dem Lager</h2>
+      <p class="section-lead reveal">Ein paar echte Preise, wie wir sie gerade im Regal hängen haben. Angebote wechseln laufend.</p>
+      <div class="price-grid reveal">
+        <div class="price-card">
+          <span class="price-tag-label">Sonderangebot</span>
+          <span class="price-name">Coca-Cola, alle Sorten</span>
+          <span class="price-detail">Kiste 12×1,0 l, inkl. Pfand</span>
+          <span class="price-value">16,50&nbsp;€</span>
+        </div>
+        <div class="price-card">
+          <span class="price-tag-label">Top-Angebot</span>
+          <span class="price-name">Servietten weiß</span>
+          <span class="price-detail">Karton, 4&nbsp;kg</span>
+          <span class="price-value">9,99&nbsp;€</span>
+        </div>
+        <div class="price-card">
+          <span class="price-tag-label">Sonderangebot</span>
+          <span class="price-name">Handtuchrollen, 2-lagig</span>
+          <span class="price-detail">6 Rollen, statt 18,50 €</span>
+          <span class="price-value">14,50&nbsp;€</span>
+        </div>
+        <div class="price-card">
+          <span class="price-tag-label">Angebot</span>
+          <span class="price-name">Körfez Ayran</span>
+          <span class="price-detail">20×250 ml, statt 7,60 €</span>
+          <span class="price-value">5,99&nbsp;€</span>
+        </div>
+      </div>
+      <p class="note reveal">Preise Stand unserer letzten Regal-Fotos – bitte für aktuelle Preise kurz anrufen.</p>
+    </div>
+  </section>
+
+  <section id="grosshandel" class="section section-dark">
+    <div class="container two-col-uneven">
+      <div class="reveal">
+        <h2>Betrieb? Wir liefern auch palettenweise.</h2>
+        <p>
+          Sie führen eine Gastronomie, einen Kiosk, einen Imbiss oder ein Geschäft und brauchen
+          eine Großlieferung – zum Beispiel Servietten, Getränkekisten oder beides zusammen auf
+          einer Palette? Genau das machen wir jeden Tag.
+        </p>
+        <p>Rufen Sie Ilhan Mehmetov direkt an, dann besprechen wir Menge, Preis und Liefertermin.</p>
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn btn-primary js-scroll">Großbestellung anfragen</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <img class="rounded-photo" src="assets/img/grosslieferung.jpg" alt="Fertig verpackte Palette Getränke zur Lieferung">
+      </div>
+    </div>
+  </section>
+
+  <section id="oeffnungszeiten" class="section">
     <div class="container two-col">
-      <div>
+      <div class="reveal">
         <h2>Öffnungszeiten</h2>
         <table class="hours-table">
           <tbody>
@@ -86,23 +169,25 @@
         </table>
         <p class="note">Öffnungszeiten werden aktuell bestätigt – bitte kurz anrufen, dann sagen wir es Ihnen genau.</p>
       </div>
-      <div>
+      <div class="reveal">
         <h2>Kontakt</h2>
         <ul class="contact-list">
-          <li><strong>Adresse:</strong><br>Odenwaldring 86<br>63069 Offenbach am Main</li>
-          <li><strong>Telefon:</strong> <a href="tel:+491773651650">+49 177 3651650</a></li>
+          <li><strong>Firma:</strong><br>I.M Getränke Depot</li>
+          <li><strong>Ansprechpartner:</strong><br>Ilhan Mehmetov</li>
+          <li><strong>Adresse:</strong><br>Berliner Allee 47<br>64295 Darmstadt</li>
+          <li><strong>Telefon:</strong> <span class="tbd">wird noch bestätigt</span></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section id="anfahrt" class="section">
-    <div class="container">
+  <section id="anfahrt" class="section section-alt">
+    <div class="container reveal">
       <h2>Anfahrt</h2>
       <div class="map-wrap">
         <iframe
           title="Karte I.M Getränke Depot"
-          src="https://www.google.com/maps?q=Odenwaldring+86,+63069+Offenbach+am+Main&output=embed"
+          src="https://www.google.com/maps?q=Berliner+Allee+47,+64295+Darmstadt&output=embed"
           width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
       </div>
@@ -115,12 +200,17 @@
   <div class="container footer-inner">
     <div>
       <p class="logo footer-logo">I.M <span>Getränke Depot</span></p>
-      <p>Odenwaldring 86, 63069 Offenbach am Main</p>
-      <p><a href="tel:+491773651650">+49 177 3651650</a></p>
+      <p>Berliner Allee 47, 64295 Darmstadt</p>
+      <p>Ansprechpartner: Ilhan Mehmetov</p>
+    </div>
+    <div class="footer-links">
+      <a href="impressum.html">Impressum</a>
     </div>
     <p class="copyright">&copy; <span id="year"></span> I.M Getränke Depot</p>
   </div>
 </footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Nach oben scrollen">↑</button>
 
 <script src="js/script.js"></script>
 </body>

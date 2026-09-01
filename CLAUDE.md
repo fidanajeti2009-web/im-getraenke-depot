@@ -4,8 +4,10 @@
 anderen Laptop/Claude (letzter Stand, offene Punkte) und die Regeln für Pull/Push.
 
 Praktikums-Projekt (gemeinsam mit einem zweiten Claude auf einem anderen Laptop).
-Statische Website (kein Build-Schritt) für den Getränkeladen I.M Getränke Depot,
-Odenwaldring 86, 63069 Offenbach am Main.
+Statische Website (kein Build-Schritt) für das I.M-Getränke Depot UG (haftungsbeschränkt),
+Berliner Allee 47, 64295 Darmstadt — Cash & Carry / Großhandel für Gastronomie,
+Kioske, Imbisse und Einzelhandel (Getränke, türkische Lebensmittel, Gastro-Einwegbedarf),
+liefert auch palettenweise. Ansprechpartner: Ilhan Mehmetov.
 
 ## Struktur
 - `index.html` – komplette Seite in einer Datei (Sections: Hero, Sortiment, Öffnungszeiten, Anfahrt, Kontakt)

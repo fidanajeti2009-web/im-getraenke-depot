@@ -1,5 +1,8 @@
 # Projekt: I.M Getränke Depot – Website
 
+**WICHTIG:** Zuerst `HANDOFF.md` lesen – dort steht der gemeinsame Speicherstand mit dem
+anderen Laptop/Claude (letzter Stand, offene Punkte) und die Regeln für Pull/Push.
+
 Praktikums-Projekt (gemeinsam mit einem zweiten Claude auf einem anderen Laptop).
 Statische Website (kein Build-Schritt) für den Getränkeladen I.M Getränke Depot,
 Odenwaldring 86, 63069 Offenbach am Main.

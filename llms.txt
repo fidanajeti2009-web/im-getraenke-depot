@@ -1,15 +1,14 @@
 # I.M Getränke Depot
 
-> Cash-&-Carry-Großhandel in Darmstadt für Getränke, türkische Lebensmittel und
+> Cash-&-Carry-Großhandel in Offenbach am Main für Getränke, türkische Lebensmittel und
 > Gastrobedarf. Beliefert Gastronomie, Kioske, Imbisse und Einzelhandel – auch
 > palettenweise – und verkauft ebenso an Privatkunden.
 
 ## Eckdaten
-- Firma: I.M-Getränke Depot UG (haftungsbeschränkt)
-- Adresse: Berliner Allee 47, 64295 Darmstadt, Deutschland
-- Ansprechpartner: Ilhan Mehmetov
-- Telefon: noch nicht bestätigt
-- Öffnungszeiten: noch nicht bestätigt
+- Firma: I.M Getränke Depot (vollständiger Firmenname noch nicht bestätigt)
+- Adresse: Odenwaldring 86, 63069 Offenbach am Main, Deutschland
+- Telefon: 0177 3651650
+- Öffnungszeiten: Montag bis Samstag 08:00–20:00 Uhr, Sonntag geschlossen
 
 ## Sortiment
 - Getränke: Softdrinks, Wasser, Bier – im Kistenpreis (z. B. Coca-Cola 12x1,0 l ab 16,50 EUR inkl. Pfand)
@@ -23,5 +22,5 @@
 - [Datenschutz](https://fidanajeti2009-web.github.io/im-getraenke-depot/datenschutz.html)
 
 ## Hinweis
-Preise sind Beispielpreise vom Regalschild und unverbindlich. Telefonnummer und
-Öffnungszeiten stehen noch aus und sind auf der Website als offen gekennzeichnet.
+Preise sind Beispielpreise vom Regalschild und unverbindlich. Offen ist noch der
+vollständige Firmenname mit Rechtsform für das Impressum.

@@ -1,6 +1,6 @@
 # I.M Getränke Depot – Website
 
-Praktikumsprojekt: Website für das **I.M-Getränke Depot UG** in Darmstadt — Cash & Carry / Großhandel.
+Praktikumsprojekt: Website für das **I.M Getränke Depot** in Offenbach am Main — Cash & Carry / Großhandel.
 Gebaut als einfache statische Seite (HTML/CSS/JS, kein Build-Schritt) – bewusst simpel gehalten,
 damit zwei Personen an zwei Rechnern problemlos parallel daran arbeiten können.
 
@@ -39,18 +39,18 @@ Dann `http://localhost:8000` im Browser aufrufen.
 
 ## Bekannte offene Punkte (TODO)
 
-- **Telefonnummer** – fehlt überall, im HTML mit `TODO(Betrieb)` markiert
-- Echte Öffnungszeiten bestätigen (aktuell "auf Anfrage")
+- **Vollständiger Firmenname + Rechtsform** – Pflichtangabe im Impressum, aktuell offen
 - Impressum: Handelsregister-Nr. + Registergericht, USt-IdNr., E-Mail ergänzen
 - Preise/Sortiment vom Chef gegenprüfen lassen
 - GitHub Pages einrichten – erst, wenn die Impressums-Pflichtangaben da sind
 
 ## Quelle der Basisdaten
 
-Firma und Adresse bestätigt über ein echtes Lieferschein-Foto aus dem Praktikum:
-I.M-Getränke Depot UG (haftungsbeschränkt), Berliner Allee 47, 64295 Darmstadt,
-Ansprechpartner Ilhan Mehmetov.
+**Stand 02.09.2026:** Odenwaldring 86, 63069 Offenbach am Main, Telefon 0177 3651650,
+Mo–Sa 08:00–20:00. Quelle ist der Google-Maps-Eintrag des Ladens („My Depott"), den der
+Betrieb selbst gepflegt hat und der von Adam bestätigt wurde.
 
-Die zuerst per Google recherchierte Offenbacher Adresse (Odenwaldring 86) war ein
-falscher Treffer und gehört zu einer anderen Firma — nicht mehr verwenden.
-Die Telefonnummer ist weiterhin unbestätigt.
+Die vorher eingetragene Darmstädter Adresse stammte von einem Lieferschein aus dem
+Praktikum — vermutlich vom Lieferanten, nicht vom Laden selbst. Deshalb ist auch der
+vollständige Firmenname mit Rechtsform wieder offen. Die ganze Begründung steht oben
+in `HANDOFF.md`.

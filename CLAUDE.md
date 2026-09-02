@@ -4,10 +4,14 @@
 anderen Laptop/Claude (letzter Stand, offene Punkte) und die Regeln für Pull/Push.
 
 Praktikums-Projekt (gemeinsam mit einem zweiten Claude auf einem anderen Laptop).
-Statische Website (kein Build-Schritt) für das I.M-Getränke Depot UG (haftungsbeschränkt),
-Berliner Allee 47, 64295 Darmstadt — Cash & Carry / Großhandel für Gastronomie,
-Kioske, Imbisse und Einzelhandel (Getränke, türkische Lebensmittel, Gastro-Einwegbedarf),
-liefert auch palettenweise. Ansprechpartner: Ilhan Mehmetov.
+Statische Website (kein Build-Schritt) für das I.M Getränke Depot,
+**Odenwaldring 86, 63069 Offenbach am Main** (bei Google als „My Depott" gelistet) —
+Cash & Carry / Großhandel für Gastronomie, Kioske, Imbisse und Einzelhandel
+(Getränke, türkische Lebensmittel, Gastro-Einwegbedarf), liefert auch palettenweise.
+Telefon 0177 3651650, Mo–Sa 08:00–20:00. Ansprechpartner: Ilhan Mehmetov.
+
+⚠️ Die Adresse wurde am 02.09. von Darmstadt auf Offenbach korrigiert — die Begründung
+steht ganz oben in `HANDOFF.md`. Nicht ohne Rücksprache zurückdrehen.
 
 ## Struktur
 - `index.html` – Startseite (Hero, Preisband, Sortiment, Beispielpreise, Großhandel,
@@ -31,8 +35,9 @@ Vor einem Wechsel auf ein Framework bitte erst absprechen.
    und der Datenschutzerklärung widersprechen.
 2. **Google Maps nur nach Klick.** Die Karte wird erst per Button nachgeladen
    (`js/script.js`, `#mapConsent`). Kein festes `<iframe>` wieder einbauen.
-3. **Keine erfundenen Firmendaten.** Telefon, Öffnungszeiten, HRB und USt-IdNr. sind offen
-   und im HTML mit `TODO(Betrieb)` markiert. Nur eintragen, was der Betrieb bestätigt hat.
+3. **Keine erfundenen Firmendaten.** Offen sind noch: vollständiger Firmenname mit
+   Rechtsform, E-Mail, HRB + Registergericht, USt-IdNr. Nur eintragen, was der Betrieb
+   bestätigt hat — die erste Adresse kam aus einer Google-Suche und war falsch.
 4. **`assets/img/lager-aktion.jpg` nicht einbinden** – darauf sind Personen erkennbar,
    dafür bräuchte es deren Einwilligung (KUG/DSGVO).
 5. Neue Fotos immer als WebP **und** JPEG über `<picture>` einbinden, mit `width`/`height`

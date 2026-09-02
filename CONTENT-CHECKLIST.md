@@ -5,16 +5,19 @@ Alles, was aktuell auf der Website Platzhalter oder ungeprüft aus einer Google-
 eintragen.
 
 ## 1. Bereits recherchiert, aber NICHT bestätigt (bitte gegenprüfen)
-- [x] Adresse: Berliner Allee 47, 64295 Darmstadt — bestätigt über Lieferschein-Foto
-- [x] Firmenname: I.M-Getränke Depot UG (haftungsbeschränkt) — laut Lieferschein
-- [x] Ansprechpartner: Ilhan Mehmetov — laut Lieferschein
-- [ ] **Telefonnummer — komplett offen.** Die alte Nummer +49 177 3651650 gehörte zum
-      falschen Offenbach-Treffer und darf NICHT verwendet werden.
+- [x] Adresse: **Odenwaldring 86, 63069 Offenbach am Main** — 02.09. korrigiert,
+      Quelle Google-Maps-Eintrag des Ladens, von Adam bestätigt. Die Darmstädter Adresse
+      vom Lieferschein war vermutlich die des Lieferanten. Begründung: `HANDOFF.md` oben.
+- [ ] **Firmenname + Rechtsform — wieder offen.** „I.M-Getränke Depot UG
+      (haftungsbeschränkt)" stammt aus demselben Lieferschein wie die falsche Adresse.
+      Pflichtangabe im Impressum, ohne sie darf die Seite nicht online.
+- [ ] Ansprechpartner: Ilhan Mehmetov — steht auf der Seite, bitte vor Ort gegenprüfen
+- [x] **Telefonnummer: 0177 3651650** — aus dem Google-Eintrag, eingetragen
 - [ ] Handelsregister-Nr. + Registergericht (Pflichtangabe im Impressum)
 - [ ] USt-IdNr. (falls vorhanden)
 
 ## 2. Komplett geraten / erfunden (muss noch geliefert werden)
-- [ ] **Öffnungszeiten** (Mo–Fr, Sa, So) — aktuell nur "auf Anfrage"
+- [x] **Öffnungszeiten: Mo–Sa 08:00–20:00, Sonntag geschlossen** — eingetragen
 - [ ] **Sortiment/Kategorien** — aktuell geraten (Softdrinks, Wasser, Bier, Wein/Sekt,
       Spirituosen, Leergut). Stimmt das? Fehlt was (z. B. Tabak, Snacks, Eis, Kaffee)?
 - [ ] **Marken/Hersteller**, die geführt werden (für "bekannte Marken" auf der Seite)
@@ -27,8 +30,8 @@ eintragen.
 - [ ] **Fotos vom Laden**: Außenansicht (Fassade/Schaufenster), Innenraum, Regale/Sortiment,
       ggf. Inhaber/Team — mind. 3–5 Fotos in guter Auflösung
 - [ ] **E-Mail-Adresse** (für Kontaktformular/Mailto-Link)
-- [ ] **Social Media**: Instagram-/Facebook-Handle, falls vorhanden ("MY Depot" auf
-      Facebook gefunden — ist das derselbe Laden?)
+- [ ] **Social Media**: der Google-Eintrag verlinkt eine Facebook-Seite — Adresse abfragen
+      und verlinken. („MY Depot" war tatsächlich derselbe Laden.)
 - [ ] **Lieferservice**: gibt es einen? Mindestbestellwert, Liefergebiet, Kosten?
 - [ ] **Zahlungsmethoden**: nur Bar, oder auch EC-/Kreditkarte?
 - [ ] **Besonderheiten**: Getränkeautomat, Pfandrückgabe-Details, Großhandel/Gastro-Belieferung,

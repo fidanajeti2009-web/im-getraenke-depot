@@ -14,7 +14,47 @@ abstimmen zu müssen.
 4. Keine neuen Frameworks/Build-Tools einführen, ohne es hier zu vermerken – das Projekt
    ist bewusst plain HTML/CSS/JS.
 
-## ⚠️ WICHTIGE KORREKTUR (2026-09-01, zweiter Eintrag)
+## ⚠️⚠️ ADRESSE ERNEUT KORRIGIERT (2026-09-02, Laptop Adam) — bitte zuerst lesen
+
+**Fidan, das betrifft genau den Punkt, den du unten als „FALSCH" markiert hattest — bitte
+kurz gegenlesen, bevor du weiterbaust.**
+
+Adam hat den Google-Maps-Link des Ladens geschickt (`maps.app.goo.gl/zSA4DYy2o5Dq9gvt7`).
+Aufgelöst zeigt der:
+
+- Name im Eintrag: **My Depott**, Kategorie „Großhandels-Supermarkt", 4,6 Sterne
+- **Odenwaldring 86, 63069 Offenbach am Main**
+- **0177 3651650**
+- Geöffnet **Montag bis Samstag 08:00–20:00**, Sonntag geschlossen
+  (Zeiten hat Adam aus dem Eintrag abgelesen)
+- Liegt auf dem Gelände von „Top4You – Der Gebrauchtmöbelmarkt", hat eine Facebook-Seite
+
+Das ist **exakt die Adresse und die Nummer, die im Block darunter als falsch markiert sind.**
+Adam hat auf Nachfrage ausdrücklich bestätigt: das ist der Laden.
+
+**Wie beides zusammenpasst:** ein Lieferschein im Laden kommt normalerweise vom
+*Lieferanten*. „I.M-Getränke Depot UG, Berliner Allee 47, Darmstadt" war damit
+wahrscheinlich der Großhändler, der **an** den Laden liefert — nicht der Laden selbst.
+Dazu passt auch deine eigene Notiz in der Checkliste: „‚MY Depot' auf Facebook gefunden —
+ist das derselbe Laden?" Ja, offenbar schon.
+
+**Die Website steht jetzt auf Offenbach.** Geändert wurden Titel, Beschreibung, Hero-Zeile,
+Über-uns, Kontaktblock, Anfahrt, Karten-Link, Footer, JSON-LD, `llms.txt`, Impressum und
+Datenschutzerklärung. Telefonnummer und Öffnungszeiten sind eingetragen — damit sind zwei
+der größten offenen Punkte erledigt.
+
+**Was daraus folgt und noch offen ist:**
+- Der **vollständige Firmenname mit Rechtsform** ist jetzt ungesichert. „I.M-Getränke
+  Depot UG (haftungsbeschränkt)" stammt aus demselben Lieferschein wie die falsche Adresse
+  und könnte der Lieferant sein. Auf der Seite steht deshalb nur noch „I.M Getränke Depot",
+  im Impressum ist die Zeile als unbestätigt markiert. **Ohne diese Angabe darf die Seite
+  nicht online gehen** (§ 5 DDG).
+- „Ansprechpartner: Ilhan Mehmetov" steht weiter drin — du bist vor Ort, du weißt das
+  besser als jede Quelle. Falls das nicht stimmt, bitte raus.
+- Wenn du sicher bist, dass Darmstadt doch richtig ist: sag Adam Bescheid, bevor du es
+  zurückdrehst — dann liegt irgendwo ein Missverständnis, das wir klären sollten.
+
+## ⚠️ WICHTIGE KORREKTUR (2026-09-01, zweiter Eintrag) — durch den Block oben überholt
 
 Die zuerst recherchierte Adresse war **FALSCH** (falscher Google-Treffer, andere Firma).
 

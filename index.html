@@ -3,20 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>I.M Getränke Depot – Großhandel Darmstadt</title>
-<meta name="description" content="I.M Getränke Depot in Darmstadt – Cash &amp; Carry Großhandel für Getränke, Lebensmittel und Gastrobedarf. Für Gastronomie, Handel und Privatkunden. Berliner Allee 47, 64295 Darmstadt.">
+<title>I.M Getränke Depot Darmstadt – Cash &amp; Carry Großhandel</title>
+<meta name="description" content="I.M Getränke Depot, Berliner Allee 47 in Darmstadt: Cash-&amp;-Carry-Großhandel für Getränke, türkische Lebensmittel und Gastrobedarf. Für Gastronomie, Kiosk, Imbiss und Handel – auch palettenweise.">
+<link rel="canonical" href="https://fidanajeti2009-web.github.io/im-getraenke-depot/">
+<meta name="theme-color" content="#0f6b3c">
+
+<meta property="og:type" content="business.business">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="I.M Getränke Depot">
+<meta property="og:title" content="I.M Getränke Depot Darmstadt – Cash &amp; Carry Großhandel">
+<meta property="og:description" content="Getränke, türkische Lebensmittel und Gastrobedarf direkt aus dem Lager. Berliner Allee 47, 64295 Darmstadt.">
+<meta property="og:url" content="https://fidanajeti2009-web.github.io/im-getraenke-depot/">
+<meta property="og:image" content="https://fidanajeti2009-web.github.io/im-getraenke-depot/assets/img/hero-lager.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/img/hero-lager.webp" type="image/webp" fetchpriority="high">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/bigshoulders-latin-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/literata-latin-normal.woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="#top" class="logo">I.M <span>Getränke Depot</span></a>
-    <nav class="main-nav">
-      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navList">
         <span></span><span></span><span></span>
       </button>
-      <ul>
+      <ul id="navList">
         <li><a href="#sortiment">Sortiment</a></li>
         <li><a href="#angebote">Angebote</a></li>
         <li><a href="#grosshandel">Großbestellung</a></li>
@@ -28,7 +48,13 @@
 
 <main id="top">
 
-  <section class="hero" style="background-image:url('assets/img/hero-lager.jpg')">
+  <section class="hero">
+    <picture class="hero-media">
+      <source srcset="assets/img/hero-lager.webp" type="image/webp">
+      <img src="assets/img/hero-lager.jpg" width="1200" height="1600"
+           alt="Blick durch einen Lagergang des I.M Getränke Depots: Regale mit Konserven, Gläsern und Kartons bis unter die Decke"
+           fetchpriority="high" decoding="async">
+    </picture>
     <div class="hero-overlay"></div>
     <div class="container hero-inner reveal">
       <p class="hero-kicker">Cash &amp; Carry Großhandel · Darmstadt</p>
@@ -42,26 +68,49 @@
     </div>
   </section>
 
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <b>Coca-Cola 12&times;1,0 l &middot; 16,50 &euro;</b><i>&bull;</i>
+      <b>Servietten Karton 4 kg &middot; 9,99 &euro;</b><i>&bull;</i>
+      <b>Handtuchrollen 6er &middot; 14,50 &euro;</b><i>&bull;</i>
+      <b>K&ouml;rfez Ayran 20&times;250 ml &middot; 5,99 &euro;</b><i>&bull;</i>
+      <b>Coca-Cola 12&times;1,0 l &middot; 16,50 &euro;</b><i>&bull;</i>
+      <b>Servietten Karton 4 kg &middot; 9,99 &euro;</b><i>&bull;</i>
+      <b>Handtuchrollen 6er &middot; 14,50 &euro;</b><i>&bull;</i>
+      <b>K&ouml;rfez Ayran 20&times;250 ml &middot; 5,99 &euro;</b><i>&bull;</i>
+    </div>
+  </div>
+
+  <div id="inhalt"></div>
+
   <section id="ueber-uns" class="section">
     <div class="container reveal">
+      <p class="eyebrow">Berliner Allee 47 &middot; Darmstadt</p>
       <h2>Ihr Großhandel in Darmstadt</h2>
-      <p class="section-lead">
+      <div class="lead-block">
+      <p>
         Im I.M Getränke Depot in der Berliner Allee finden Sie ein volles Lager statt leerer Regale:
         Softdrinks und Bier im Kistenpreis, türkische und orientalische Feinkost, dazu alles, was ein
         Gastronomiebetrieb an Einwegbedarf braucht – von der Serviette bis zur Menübox. Ansprechpartner
         vor Ort: Ilhan Mehmetov.
       </p>
+      </div>
     </div>
   </section>
 
   <section id="sortiment" class="section section-alt">
     <div class="container">
+      <p class="eyebrow reveal">Aus dem Lager</p>
       <h2 class="reveal">Unser Sortiment</h2>
       <p class="section-lead reveal">Ein Ausschnitt aus unserem Lager – das komplette Sortiment ist deutlich größer.</p>
 
       <div class="photo-card-grid">
         <article class="photo-card reveal">
-          <img src="assets/img/sortiment-getraenke.jpg" alt="Coca-Cola Kisten im Lager mit Preisschild">
+          <picture>
+            <source srcset="assets/img/sortiment-getraenke.webp" type="image/webp">
+            <img src="assets/img/sortiment-getraenke.jpg" width="750" height="1000" loading="lazy" decoding="async"
+                 alt="Gestapelte Coca-Cola-Kisten im Lager mit Preisschild">
+          </picture>
           <div class="photo-card-body">
             <h3>Getränke</h3>
             <p>Softdrinks, Wasser und Bier im Kistenpreis – alle Coca-Cola-Sorten, 12×1,0&nbsp;l,
@@ -69,7 +118,11 @@
           </div>
         </article>
         <article class="photo-card reveal">
-          <img src="assets/img/sortiment-lebensmittel.jpg" alt="Preisschilder für Ayran, Joghurt und Käse im Lager">
+          <picture>
+            <source srcset="assets/img/sortiment-lebensmittel.webp" type="image/webp">
+            <img src="assets/img/sortiment-lebensmittel.jpg" width="1000" height="750" loading="lazy" decoding="async"
+                 alt="Regal mit Preisschildern für Ayran, Joghurt und Käse">
+          </picture>
           <div class="photo-card-body">
             <h3>Lebensmittel &amp; Import</h3>
             <p>Käse, Ayran, Joghurt (10-kg-Eimer), Oliven, Konserven und weitere türkische
@@ -77,7 +130,11 @@
           </div>
         </article>
         <article class="photo-card reveal">
-          <img src="assets/img/sortiment-gastro.jpg" alt="Servietten-Karton mit Preisschild im Lager">
+          <picture>
+            <source srcset="assets/img/sortiment-gastro.webp" type="image/webp">
+            <img src="assets/img/sortiment-gastro.jpg" width="750" height="1000" loading="lazy" decoding="async"
+                 alt="Karton mit weißen Servietten und Preisschild im Gastrobedarf-Regal">
+          </picture>
           <div class="photo-card-body">
             <h3>Gastrobedarf &amp; Einweg</h3>
             <p>Servietten, Salatboxen, Menüboxen, Alu-Schalen und Becher – alles für den
@@ -86,24 +143,25 @@
         </article>
       </div>
 
-      <div class="chip-row reveal">
-        <span class="chip">Wasser</span>
-        <span class="chip">Bier</span>
-        <span class="chip">Softdrinks</span>
-        <span class="chip">Ayran &amp; Joghurt</span>
-        <span class="chip">Käse</span>
-        <span class="chip">Oliven &amp; Konserven</span>
-        <span class="chip">Toilettenpapier &amp; Handtuchrollen</span>
-        <span class="chip">Reinigungsmittel</span>
-        <span class="chip">Servietten</span>
-        <span class="chip">Einweggeschirr</span>
-      </div>
+      <ul class="chip-row reveal">
+        <li class="chip">Wasser</li>
+        <li class="chip">Bier</li>
+        <li class="chip">Softdrinks</li>
+        <li class="chip">Ayran &amp; Joghurt</li>
+        <li class="chip">Käse</li>
+        <li class="chip">Oliven &amp; Konserven</li>
+        <li class="chip">Toilettenpapier &amp; Handtuchrollen</li>
+        <li class="chip">Reinigungsmittel</li>
+        <li class="chip">Servietten</li>
+        <li class="chip">Einweggeschirr</li>
+      </ul>
       <p class="note reveal">Genaues Sortiment und aktuelle Verfügbarkeit auf Anfrage – rufen Sie gerne an oder schauen Sie vorbei.</p>
     </div>
   </section>
 
   <section id="angebote" class="section">
     <div class="container">
+      <p class="eyebrow reveal">Direkt vom Regalschild</p>
       <h2 class="reveal">Beispielpreise aus dem Lager</h2>
       <p class="section-lead reveal">Ein paar echte Preise, wie wir sie gerade im Regal hängen haben. Angebote wechseln laufend.</p>
       <div class="price-grid reveal">
@@ -139,7 +197,8 @@
   <section id="grosshandel" class="section section-dark">
     <div class="container two-col-uneven">
       <div class="reveal">
-        <h2>Betrieb? Wir liefern auch palettenweise.</h2>
+        <p class="eyebrow reveal">F&uuml;r Betriebe</p>
+      <h2>Betrieb? Wir liefern auch palettenweise.</h2>
         <p>
           Sie führen eine Gastronomie, einen Kiosk, einen Imbiss oder ein Geschäft und brauchen
           eine Großlieferung – zum Beispiel Servietten, Getränkekisten oder beides zusammen auf
@@ -150,8 +209,13 @@
           <a href="#kontakt" class="btn btn-primary js-scroll">Großbestellung anfragen</a>
         </div>
       </div>
-      <div class="reveal">
-        <img class="rounded-photo" src="assets/img/grosslieferung.jpg" alt="Fertig verpackte Palette Getränke zur Lieferung">
+      <div class="reveal bleed-photo">
+        <picture>
+          <source srcset="assets/img/grosslieferung.webp" type="image/webp">
+          <img class="rounded-photo" src="assets/img/grosslieferung.jpg" width="900" height="1200"
+               loading="lazy" decoding="async"
+               alt="Fertig gestapelte und gesicherte Palette mit Getränken, bereit zur Auslieferung">
+        </picture>
       </div>
     </div>
   </section>
@@ -169,12 +233,14 @@
         </table>
         <p class="note">Öffnungszeiten werden aktuell bestätigt – bitte kurz anrufen, dann sagen wir es Ihnen genau.</p>
       </div>
-      <div class="reveal">
+      <div class="reveal" id="kontakt">
         <h2>Kontakt</h2>
         <ul class="contact-list">
-          <li><strong>Firma:</strong><br>I.M Getränke Depot</li>
+          <li><strong>Firma:</strong><br>I.M-Getränke Depot UG (haftungsbeschränkt)</li>
           <li><strong>Ansprechpartner:</strong><br>Ilhan Mehmetov</li>
           <li><strong>Adresse:</strong><br>Berliner Allee 47<br>64295 Darmstadt</li>
+          <!-- TODO(Betrieb): echte Rufnummer eintragen, dann <span class="tbd"> durch
+               <a href="tel:+49..."> ersetzen. Zweite Stelle: JSON-LD unten ("telephone"). -->
           <li><strong>Telefon:</strong> <span class="tbd">wird noch bestätigt</span></li>
         </ul>
       </div>
@@ -183,34 +249,76 @@
 
   <section id="anfahrt" class="section section-alt">
     <div class="container reveal">
+      <p class="eyebrow reveal">So finden Sie uns</p>
       <h2>Anfahrt</h2>
+      <p class="section-lead">Berliner Allee 47, 64295 Darmstadt. Anfahrt über die Berliner Allee,
+        Kundenparkplätze direkt am Lager.</p>
+
       <div class="map-wrap">
-        <iframe
-          title="Karte I.M Getränke Depot"
-          src="https://www.google.com/maps?q=Berliner+Allee+47,+64295+Darmstadt&output=embed"
-          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
+        <div class="map-consent" id="mapConsent">
+          <h3>Karte von Google Maps</h3>
+          <p>
+            Wenn Sie die Karte laden, stellt Ihr Browser eine Verbindung zu Google
+            (Google Ireland Ltd.) her. Dabei werden unter anderem Ihre IP-Adresse und
+            Geräteinformationen an Google übertragen, möglicherweise auch in die USA.
+            Details dazu in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
+          </p>
+          <div class="map-consent-actions">
+            <button type="button" class="btn btn-primary" id="mapLoadBtn">Karte laden</button>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Berliner+Allee+47%2C+64295+Darmstadt"
+               target="_blank" rel="noopener noreferrer">In Google Maps öffnen</a>
+          </div>
+          <p class="map-consent-note">Ihre Auswahl gilt nur für diesen Besuch und wird nicht gespeichert.</p>
+        </div>
       </div>
     </div>
   </section>
 
 </main>
 
-<footer id="kontakt" class="site-footer">
+<footer class="site-footer">
   <div class="container footer-inner">
     <div>
       <p class="logo footer-logo">I.M <span>Getränke Depot</span></p>
       <p>Berliner Allee 47, 64295 Darmstadt</p>
       <p>Ansprechpartner: Ilhan Mehmetov</p>
     </div>
-    <div class="footer-links">
+    <nav class="footer-links" aria-label="Rechtliches">
       <a href="impressum.html">Impressum</a>
-    </div>
-    <p class="copyright">&copy; <span id="year"></span> I.M Getränke Depot</p>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+    <p class="copyright">&copy; <span id="year"></span> I.M-Getränke Depot UG (haftungsbeschränkt)</p>
   </div>
 </footer>
 
 <button id="backToTop" class="back-to-top" aria-label="Nach oben scrollen">↑</button>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WholesaleStore",
+  "name": "I.M Getränke Depot",
+  "legalName": "I.M-Getränke Depot UG (haftungsbeschränkt)",
+  "description": "Cash-&-Carry-Großhandel in Darmstadt für Getränke, türkische Lebensmittel und Gastrobedarf. Beliefert Gastronomie, Kioske, Imbisse und Einzelhandel, auch palettenweise, und verkauft an Privatkunden.",
+  "url": "https://fidanajeti2009-web.github.io/im-getraenke-depot/",
+  "image": "https://fidanajeti2009-web.github.io/im-getraenke-depot/assets/img/hero-lager.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Berliner Allee 47",
+    "postalCode": "64295",
+    "addressLocality": "Darmstadt",
+    "addressRegion": "Hessen",
+    "addressCountry": "DE"
+  },
+  "areaServed": "Rhein-Main-Gebiet",
+  "employee": { "@type": "Person", "name": "Ilhan Mehmetov" }
+}
+</script>
+<!-- TODO(Betrieb): sobald bestätigt, hier ergänzen:
+     "telephone": "+49...", und
+     "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification",
+       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+       "opens": "08:00", "closes": "18:00" }]  -->
 
 <script src="js/script.js"></script>
 </body>

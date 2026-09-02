@@ -1,0 +1,20 @@
+# I.M Getränke Depot - robots.txt
+User-agent: *
+Allow: /
+
+# KI-Crawler ausdruecklich erlaubt, damit der Laden auch in
+# KI-Antworten (ChatGPT, Claude, Perplexity, Google AI) auftaucht.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://fidanajeti2009-web.github.io/im-getraenke-depot/sitemap.xml

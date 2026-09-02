@@ -7,22 +7,43 @@ damit zwei Personen an zwei Rechnern problemlos parallel daran arbeiten können.
 ## Struktur
 
 ```
-index.html      – gesamte Seite (Hero, Sortiment, Öffnungszeiten, Anfahrt, Kontakt)
-css/style.css   – Styling
-js/script.js    – mobiles Menü, Footer-Jahr
+index.html        – Startseite
+impressum.html    – Impressum (§ 5 DDG)
+datenschutz.html  – Datenschutzerklärung
+404.html          – Fehlerseite
+css/style.css     – Design-System (Farben/Schriften als Variablen in :root)
+css/fonts.css     – @font-face für die selbst gehosteten Schriften
+js/script.js      – Menü, Scroll-Reveal, Maps-Einwilligung, Footer-Jahr
+assets/img/       – Fotos als .webp + .jpg (Fallback über <picture>)
+assets/fonts/     – Big Shoulders Display + Literata (woff2)
+robots.txt · sitemap.xml · llms.txt · assets/favicon.svg
 ```
 
 ## Lokal ansehen
 
-`index.html` direkt im Browser öffnen, oder z. B. mit `npx serve` einen lokalen Server starten.
+Nicht per Doppelklick öffnen – über einen lokalen Server, sonst laden die Schriften nicht:
+
+```
+python -m http.server 8000
+```
+
+Dann `http://localhost:8000` im Browser aufrufen.
+
+## Wichtig beim Weiterbauen
+
+- **Keine Schriften vom Google-CDN einbinden** – die liegen lokal in `assets/fonts/`.
+  Ein `<link>` auf fonts.googleapis.com sendet die IP jedes Besuchers an Google.
+- **Google Maps lädt erst nach Klick** – das feste `<iframe>` nicht wieder einbauen.
+- **`assets/img/lager-aktion.jpg` nicht verwenden** – darauf sind Personen erkennbar.
+- Details und Design-Regeln stehen in `CLAUDE.md`, der Verlauf in `HANDOFF.md`.
 
 ## Bekannte offene Punkte (TODO)
 
-- Echte Öffnungszeiten bestätigen (aktuell Platzhalter "auf Anfrage")
-- Genaues Sortiment/Marken mit dem Laden abstimmen
-- Logo & Markenfarben vom Besitzer holen (aktuell Platzhalter-Grün/Gold)
-- Ggf. eigene Fotos vom Laden einbinden
-- Deployment: GitHub Pages einrichten, sobald Inhalt final ist
+- **Telefonnummer** – fehlt überall, im HTML mit `TODO(Betrieb)` markiert
+- Echte Öffnungszeiten bestätigen (aktuell "auf Anfrage")
+- Impressum: Handelsregister-Nr. + Registergericht, USt-IdNr., E-Mail ergänzen
+- Preise/Sortiment vom Chef gegenprüfen lassen
+- GitHub Pages einrichten – erst, wenn die Impressums-Pflichtangaben da sind
 
 ## Quelle der Basisdaten
 

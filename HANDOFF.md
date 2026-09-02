@@ -30,6 +30,93 @@ Falls der andere Laptop schon mit der Offenbach-Adresse gearbeitet hat: bitte NI
 
 ## Letzter Stand
 
+### 2026-09-02 – Laptop Adam
+
+**Was gemacht wurde** (nichts an euren Inhalten/Preisen geändert, nur ergänzt und repariert):
+
+*Optik komplett überarbeitet — Texte, Preise und Fotos sind 1:1 geblieben:*
+Adams Urteil zur ersten Fassung war: „Hero ist cool, der Rest ist basic." Stimmt — die
+Gründe waren System-Schrift (Segoe UI), fünf Abschnitte im exakt gleichen Takt,
+Standard-Karten mit Rahmen + Hover-Schatten, briefmarkengroße Fotos und gleichmäßig
+verteilte Farben. Neu ist deshalb:
+- **Echte Schriften, selbst gehostet:** *Big Shoulders Display* (schmal, industriell,
+  für alle Überschriften) gegen *Literata* (warme Serife im Fließtext). Beide liegen als
+  woff2 in `assets/fonts/` (228 KB) und werden über `css/fonts.css` eingebunden —
+  **bewusst nicht über das Google-Fonts-CDN**, das würde die IP jedes Besuchers an Google
+  senden (LG München, 20.01.2022) und der Datenschutzerklärung widersprechen.
+- **Neue Palette:** Kraftpapier-Beige als Fläche, fast schwarzes Grün als dominante Farbe,
+  Bernstein **nur** für Preise und Aktionen. Radius von 10 px auf 2 px — Regal statt App.
+- **Preisband unter dem Hero:** laufendes Bernstein-Band mit den vier echten Regalpreisen.
+  Hält beim Hover an, ist `aria-hidden` (die Preise stehen ausgeschrieben weiter unten).
+- **Preise sind jetzt das Herzstück:** dunkler Block, riesige Bernstein-Zahlen. Das ist
+  der stärkste Inhalt, den ihr habt — den hat sonst kein Wettbewerber online.
+- **Sortiment-Fotos groß (4:5) statt 200 px hoch**, ohne Karten-Rahmen, mit sanftem Zoom
+  beim Hover. Die Chip-Wolke ist ein „Regal-Index" in Versalien geworden.
+- **Hero:** gestaffelter Auftritt beim Laden, kleinere Überdeckung, Foto bleibt sichtbar.
+- Palettenfoto mit Bernstein-Eckmarke, auf 540 px Höhe gedeckelt.
+
+*Rechtliches (Punkt 4 der offenen Liste ist damit erledigt):*
+
+*Rechtliches (Punkt 4 der offenen Liste ist damit erledigt):*
+- `datenschutz.html` neu angelegt — DSGVO-konform für den echten Stand der Seite:
+  Verantwortlicher, GitHub-Pages-Hosting + Server-Logfiles (Art. 6 Abs. 1 lit. f),
+  TLS, Google Maps nur nach Einwilligung, Betroffenenrechte, Aufsichtsbehörde Hessen.
+- **Google Maps auf 2-Klick-Lösung umgebaut.** Die Karte war fest als `<iframe>` drin, d. h.
+  jeder Besucher schickte ungefragt seine IP an Google — genau das ist der Punkt, an dem
+  deutsche Seiten abgemahnt werden. Jetzt steht dort eine Box mit Erklärung + Button
+  „Karte laden"; vorher geht **keine einzige Anfrage** an Google raus. Alternativ-Link
+  „In Google Maps öffnen" daneben.
+- `impressum.html` erweitert: § 5 DDG (TMG ist seit Mai 2024 abgelöst), Haftung für
+  Inhalte/Links, Urheberrecht, Preishinweis (Beispielpreise unverbindlich),
+  § 36 VSBG, Link zur Datenschutzerklärung. Die fehlenden Pflichtangaben sind weiter
+  klar als offen markiert.
+
+*Zwei echte Fehler gefunden und behoben:*
+- `js/script.js` starb auf jeder Unterseite in Zeile 1 (`getElementById("year")` ist dort
+  null) — dadurch wären dort alle `reveal`-Blöcke unsichtbar geblieben. Alle
+  DOM-Zugriffe sind jetzt abgesichert.
+- Im Footer war „I.M" unsichtbar: dunkler Text (`--color-text`) auf dunklem Footer-Grund.
+  Ebenso klebten Impressum/Datenschutz aneinander. Beides korrigiert.
+- Zusätzlich: `.reveal` versteckt jetzt nur noch, wenn JavaScript wirklich läuft
+  (`html.js`). Ohne JS oder bei einem Skript-Abbruch bleibt die Seite lesbar statt leer.
+
+*Technik/Performance:*
+- Alle 6 Fotos zusätzlich als WebP (ffmpeg): **1,79 MB → 696 KB** bei gleicher Optik.
+  Eingebunden über `<picture>` mit JPEG-Fallback, die JPEGs bleiben also liegen.
+- Hero-Bild ist jetzt ein echtes `<img>` mit `fetchpriority="high"` + `preload` statt
+  CSS-Hintergrund → der Browser lädt es früher, der Seitenaufbau wirkt schneller.
+- **Hero-Overlay war zu dunkel** (92 % Grün): euer Lagerfoto war praktisch unsichtbar.
+  Jetzt links dunkel genug für den Text, rechts sieht man das Lager.
+- Alle Bilder haben `width`/`height` → kein Springen beim Laden mehr.
+- `prefers-reduced-motion` respektiert, Skip-Link + sichtbarer Fokusring für Tastatur.
+
+*Auffindbarkeit:*
+- JSON-LD `WholesaleStore` (Firma, Adresse, Ansprechpartner) — nur bestätigte Daten.
+  Telefon und Öffnungszeiten stehen als auskommentierte Vorlage direkt daneben.
+- `robots.txt` (KI-Crawler ausdrücklich erlaubt), `sitemap.xml`, `llms.txt`, `404.html`,
+  Favicon, Open Graph, canonical.
+
+*Kontrolle:* Seite mit Headless-Chrome auf 1280 px und 390 px geprüft, alle internen Links
+und Assets automatisch getestet, JSON-LD validiert.
+
+**⚠️ Zwei Punkte für Fidan:**
+1. `assets/img/lager-aktion.jpg` liegt im Repo, ist aber **nirgends eingebunden** — gut so:
+   darauf sind zwei Personen klar erkennbar. Vor einer Veröffentlichung braucht es dafür
+   die Einwilligung der Abgebildeten (KUG/DSGVO). Ich habe es bewusst nicht verwendet.
+2. In `sitemap.xml`, `robots.txt`, `llms.txt` und im JSON-LD steht als Adresse
+   `https://fidanajeti2009-web.github.io/im-getraenke-depot/`. Falls eine eigene Domain
+   kommt, müssen diese vier Stellen angepasst werden.
+
+**Weiter offen (unverändert, braucht Infos vom Betrieb):**
+1. **Telefonnummer** — im HTML steht ein `TODO(Betrieb)`-Kommentar an genau den zwei
+   Stellen, wo sie rein muss (Kontaktblock + JSON-LD).
+2. **Öffnungszeiten** (Tabelle + JSON-LD-Vorlage steht auskommentiert bereit).
+3. **Impressum:** Handelsregister-Nr. + Registergericht, USt-IdNr., E-Mail.
+4. Preise/Sortiment vom Chef gegenprüfen lassen.
+5. GitHub Pages **noch nicht** aktiviert — bewusst: solange die Impressums-Pflichtangaben
+   fehlen, sollte die Seite nicht öffentlich erreichbar sein.
+
+
 ### 2026-09-01 (abends) – Laptop Fidan
 
 **Ordner umgezogen:** Das Projekt liegt jetzt unter

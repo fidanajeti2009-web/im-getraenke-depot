@@ -19,7 +19,9 @@ eintragen.
       Spirituosen, Leergut). Stimmt das? Fehlt was (z. B. Tabak, Snacks, Eis, Kaffee)?
 - [ ] **Marken/Hersteller**, die geführt werden (für "bekannte Marken" auf der Seite)
 - [ ] **Logo** — aktuell nur Schrift-Logo, kein echtes Bild
-- [ ] **Markenfarben** — aktuell frei gewähltes Grün/Gold, keine echten Ladenfarben
+- [ ] **Markenfarben** — aktuell Grün + Bernstein auf Kraftpapier-Beige (bewusst gewählt,
+      aber nicht die echten Ladenfarben). Falls es welche gibt: nur die Variablen in
+      `css/style.css` (`:root`) ändern, der Rest zieht automatisch nach.
 
 ## 3. Fehlt komplett (noch nie erfragt)
 - [ ] **Fotos vom Laden**: Außenansicht (Fassade/Schaufenster), Innenraum, Regale/Sortiment,
@@ -37,8 +39,14 @@ eintragen.
 ## 4. Rechtlich notwendig für eine deutsche Business-Website
 - [ ] **Impressum-Angaben**: vollständiger Name/Firma, Rechtsform, Inhaber, ladungsfähige
       Anschrift, USt-IdNr. (falls vorhanden), Handelsregister-Nr. (falls vorhanden)
-- [ ] **Datenschutzerklärung**: nötig, sobald Kontaktformular oder Google Maps eingebunden ist
-      (Google Maps ist bereits eingebunden — Datenschutzhinweis darauf einplanen)
+- [x] **Datenschutzerklärung**: `datenschutz.html` angelegt (02.09.), Google Maps auf
+      2-Klick-Lösung umgebaut, Schriften selbst gehostet — es geht nichts mehr ungefragt
+      an Google raus
+
+## 4b. Einwilligungen für Fotos
+- [ ] `assets/img/lager-aktion.jpg` zeigt zwei erkennbare Personen. Wird derzeit **nicht**
+      auf der Seite verwendet. Vor einer Veröffentlichung braucht es die schriftliche
+      Einwilligung der Abgebildeten (KUG § 22 / DSGVO).
 
 ## 5. Optional, aber schön zu haben
 - [ ] Google-Bewertungen/Sterne (Link zum Profil für "Bewertungen ansehen"-Button)

@@ -11,17 +11,26 @@ eintragen.
 - [ ] **Firmenname + Rechtsform — wieder offen.** „I.M-Getränke Depot UG
       (haftungsbeschränkt)" stammt aus demselben Lieferschein wie die falsche Adresse.
       Pflichtangabe im Impressum, ohne sie darf die Seite nicht online.
-- [ ] Ansprechpartner: Ilhan Mehmetov — steht auf der Seite, bitte vor Ort gegenprüfen
+- [ ] **Vertretungsberechtigte Person** für das Impressum (Pflichtangabe § 5 DDG).
+      Auf der Website selbst steht bewusst kein Personenname mehr.
 - [x] **Telefonnummer: 0177 3651650** — aus dem Google-Eintrag, eingetragen
 - [ ] Handelsregister-Nr. + Registergericht (Pflichtangabe im Impressum)
 - [ ] USt-IdNr. (falls vorhanden)
 
 ## 2. Komplett geraten / erfunden (muss noch geliefert werden)
 - [x] **Öffnungszeiten: Mo–Sa 08:00–20:00, Sonntag geschlossen** — eingetragen
-- [ ] **Sortiment/Kategorien** — aktuell geraten (Softdrinks, Wasser, Bier, Wein/Sekt,
-      Spirituosen, Leergut). Stimmt das? Fehlt was (z. B. Tabak, Snacks, Eis, Kaffee)?
+- [x] **Sortiment/Kategorien** — jetzt vom eigenen Prospekt: Gemüse, Getränke, Verpackungen,
+      türkische Lebensmittel, Reinigung. Ergänzt wurden Gemüse, Öl, Tee, Pizzakartons, Becher.
+- [ ] Fehlt trotzdem noch was (Tabak, Snacks, Eis, Kaffee, Butangas/Gaskocher)?
 - [ ] **Marken/Hersteller**, die geführt werden (für "bekannte Marken" auf der Seite)
-- [ ] **Logo** — aktuell nur Schrift-Logo, kein echtes Bild
+- [ ] **Logo** — aktuell nur Schrift-Logo. Das echte Logo ist auf den Prospektfotos der
+      Facebook-Seite zu sehen (rot/schwarz, „my DEPOT" bzw. „I.M GETRÄNKE DEPOT").
+      Bitte als Datei vom Betrieb holen, dann kann es rein.
+- [ ] **Welcher Name ist der aktuelle?** Fassade/Google/Facebook sagen „my DEPOT",
+      ein älterer Prospekt sagt „I.M GETRÄNKE DEPOT". Kurz aufs Schild schauen.
+- [ ] **Zweite Telefonnummer 0157 83311831** (vom Prospekt) — welche gilt?
+- [ ] **Instagram** — auf dem Prospekt stehen `imgetrankedepot` und `i.mgetranke_depot`.
+      Ohne Login nicht prüfbar, deshalb nicht verlinkt.
 - [ ] **Markenfarben** — aktuell Grün + Bernstein auf Kraftpapier-Beige (bewusst gewählt,
       aber nicht die echten Ladenfarben). Falls es welche gibt: nur die Variablen in
       `css/style.css` (`:root`) ändern, der Rest zieht automatisch nach.
@@ -30,8 +39,7 @@ eintragen.
 - [ ] **Fotos vom Laden**: Außenansicht (Fassade/Schaufenster), Innenraum, Regale/Sortiment,
       ggf. Inhaber/Team — mind. 3–5 Fotos in guter Auflösung
 - [ ] **E-Mail-Adresse** (für Kontaktformular/Mailto-Link)
-- [ ] **Social Media**: der Google-Eintrag verlinkt eine Facebook-Seite — Adresse abfragen
-      und verlinken. („MY Depot" war tatsächlich derselbe Laden.)
+- [x] **Facebook** verlinkt: facebook.com/people/MY-Depot/100063640085350/
 - [ ] **Lieferservice**: gibt es einen? Mindestbestellwert, Liefergebiet, Kosten?
 - [ ] **Zahlungsmethoden**: nur Bar, oder auch EC-/Kreditkarte?
 - [ ] **Besonderheiten**: Getränkeautomat, Pfandrückgabe-Details, Großhandel/Gastro-Belieferung,

@@ -1,6 +1,7 @@
 # I.M Getränke Depot – Website
 
-Praktikumsprojekt: Website für das **I.M Getränke Depot** in Offenbach am Main — Cash & Carry / Großhandel.
+Praktikumsprojekt: Website für das **my DEPOT** in Offenbach am Main — Cash & Carry /
+Großhandel für Gemüse, Getränke und Verpackungen.
 Gebaut als einfache statische Seite (HTML/CSS/JS, kein Build-Schritt) – bewusst simpel gehalten,
 damit zwei Personen an zwei Rechnern problemlos parallel daran arbeiten können.
 
@@ -40,6 +41,8 @@ Dann `http://localhost:8000` im Browser aufrufen.
 ## Bekannte offene Punkte (TODO)
 
 - **Vollständiger Firmenname + Rechtsform** – Pflichtangabe im Impressum, aktuell offen
+- **Vertretungsberechtigte Person** – Pflichtangabe, aktuell offen
+- Welcher Name gilt: „my DEPOT" (Fassade/Google/Facebook) oder „I.M Getränke Depot" (Prospekt)?
 - Impressum: Handelsregister-Nr. + Registergericht, USt-IdNr., E-Mail ergänzen
 - Preise/Sortiment vom Chef gegenprüfen lassen
 - GitHub Pages einrichten – erst, wenn die Impressums-Pflichtangaben da sind

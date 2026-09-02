@@ -615,3 +615,17 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   .ticker-track { animation: none; }
   .photo-card:hover img { transform: none; }
 }
+
+/* Fassadenfoto in der Anfahrt: nur ein Wiedererkennungsbild, nicht mehr */
+.landmark {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin-top: 28px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+
+/* Logo: "my" bleibt klein geschrieben wie auf der Fassade */
+.logo span { text-transform: lowercase; }

@@ -4,11 +4,17 @@
 anderen Laptop/Claude (letzter Stand, offene Punkte) und die Regeln für Pull/Push.
 
 Praktikums-Projekt (gemeinsam mit einem zweiten Claude auf einem anderen Laptop).
-Statische Website (kein Build-Schritt) für das I.M Getränke Depot,
-**Odenwaldring 86, 63069 Offenbach am Main** (bei Google als „My Depott" gelistet) —
-Cash & Carry / Großhandel für Gastronomie, Kioske, Imbisse und Einzelhandel
-(Getränke, türkische Lebensmittel, Gastro-Einwegbedarf), liefert auch palettenweise.
-Telefon 0177 3651650, Mo–Sa 08:00–20:00. Ansprechpartner: Ilhan Mehmetov.
+Statische Website (kein Build-Schritt) für das **my DEPOT** (auf älteren Prospekten
+auch „I.M Getränke Depot"),
+**Odenwaldring 86, 63069 Offenbach am Main** —
+Eigener Slogan: „Gemüse · Getränke · Verpackungen". Cash & Carry / Großhandel für
+Gastronomie, Kioske, Imbisse und Einzelhandel, liefert auch palettenweise.
+Facebook: facebook.com/people/MY-Depot/100063640085350/
+Telefon 0177 3651650, Mo–Sa 08:00–20:00.
+
+⚠️ **Keine Personennamen auf der Seite.** Adam hat den Ansprechpartner am 02.09. bewusst
+entfernen lassen. Nur die Firma, keine Privatperson — außer der Betrieb sagt ausdrücklich
+etwas anderes (im Impressum ist die vertretungsberechtigte Person aber Pflicht).
 
 ⚠️ Die Adresse wurde am 02.09. von Darmstadt auf Offenbach korrigiert — die Begründung
 steht ganz oben in `HANDOFF.md`. Nicht ohne Rücksprache zurückdrehen.

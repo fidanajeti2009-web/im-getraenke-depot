@@ -14,6 +14,46 @@ abstimmen zu müssen.
 4. Keine neuen Frameworks/Build-Tools einführen, ohne es hier zu vermerken – das Projekt
    ist bewusst plain HTML/CSS/JS.
 
+## 🔎 NACHTRAG (2026-09-02, Laptop Adam): Facebook-Seite ausgewertet
+
+Die Google-Maps-Seite verlinkt eine Facebook-Seite. Die ist **öffentlich lesbar, ohne Login** —
+darin stehen die Fassadenfotos und die eigenen Werbeprospekte des Ladens. Damit ist vieles
+belegt, was vorher geraten war:
+
+| Was | Beleg |
+|---|---|
+| **Adresse Odenwaldring 86, 63069 Offenbach** | steht auf dem eigenen Prospekt |
+| **Telefon 0177 3651650** | Google **und** Facebook |
+| **Name „my DEPOT"** | Fassadenschild, Facebook-Seitenname, Google-Eintrag |
+| **„Gemüse · Getränke · Verpackungen"** | eigener Slogan auf dem Prospekt |
+| Facebook | `facebook.com/people/MY-Depot/100063640085350/` |
+
+**Fidan, du hattest mit dem Namen recht** — auf einem älteren Prospekt (Ramadan-Angebot)
+steht tatsächlich das Logo **„I.M GETRÄNKE DEPOT"**, mit derselben Offenbacher Adresse.
+Der Laden benutzt also beide Namen. Weil Fassade, Google und Facebook alle „my DEPOT"
+sagen, steht das jetzt auf der Seite; „I.M Getränke Depot" ist im JSON-LD als
+`alternateName` hinterlegt. **Bitte schau beim nächsten Mal kurz aufs Schild und sag,
+welcher Name der aktuelle ist** — umzustellen ist eine Minute.
+
+**Was daraus in die Seite gewandert ist:**
+- Marke „my DEPOT", Hero-Zeile „Gemüse · Getränke · Verpackungen" (ihr eigener Slogan)
+- Sortiment um **Gemüse**, Öl, Tee, Pizzakartons, Becher ergänzt; die dritte Karte heißt
+  jetzt „Verpackungen & Einweg" statt „Gastrobedarf"
+- **Fassadenfoto** in der Anfahrt („Daran erkennen Sie uns") — `assets/img/fassade.jpg/.webp`
+- Facebook verlinkt in Kontakt, Footer und JSON-LD (`sameAs`)
+- Hinweis bei den Preisen, dass die aktuellen Wochenangebote auf Facebook stehen
+- **Personenname entfernt.** „Ilhan Mehmetov" steht auf Adams Wunsch nirgends mehr auf der
+  Seite. Im Impressum ist „Vertreten durch" jetzt eine offene Pflichtangabe.
+
+**Bewusst NICHT übernommen:**
+- Die Prospektpreise (Ramadan-Aktion 14.03.–21.03.) — abgelaufene Aktionspreise gehören
+  nicht als aktuelle Preise auf eine Website. Die vier Regalpreise von dir bleiben drin.
+- Die Instagram-Handles vom Prospekt (`imgetrankedepot`, `i.mgetranke_depot`) — Instagram
+  antwortet ohne Login auf **jeden** Namen mit HTTP 200, auch auf erfundene. Nicht prüfbar,
+  also nicht verlinkt. Wenn du die Konten kennst: einfach im Footer ergänzen.
+- Die zweite Nummer vom Prospekt (**0157 83311831**) — bitte klären, welche die richtige ist.
+- Facebook-Cookies. Braucht man nicht, die Seite ist öffentlich.
+
 ## ⚠️⚠️ ADRESSE ERNEUT KORRIGIERT (2026-09-02, Laptop Adam) — bitte zuerst lesen
 
 **Fidan, das betrifft genau den Punkt, den du unten als „FALSCH" markiert hattest — bitte

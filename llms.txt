@@ -1,20 +1,26 @@
-# I.M Getränke Depot
+# my DEPOT
 
-> Cash-&-Carry-Großhandel in Offenbach am Main für Getränke, türkische Lebensmittel und
-> Gastrobedarf. Beliefert Gastronomie, Kioske, Imbisse und Einzelhandel – auch
+> Cash-&-Carry-Großhandel in Offenbach am Main für Gemüse, Getränke, türkische
+> Lebensmittel und Verpackungen. Beliefert Gastronomie, Kioske, Imbisse und Einzelhandel – auch
 > palettenweise – und verkauft ebenso an Privatkunden.
 
 ## Eckdaten
-- Firma: I.M Getränke Depot (vollständiger Firmenname noch nicht bestätigt)
+- Name: my DEPOT (auf älteren Prospekten auch "I.M Getränke Depot"; vollständige
+  Firmierung mit Rechtsform noch nicht bestätigt)
 - Adresse: Odenwaldring 86, 63069 Offenbach am Main, Deutschland
 - Telefon: 0177 3651650
 - Öffnungszeiten: Montag bis Samstag 08:00–20:00 Uhr, Sonntag geschlossen
 
 ## Sortiment
+- Eigene Kurzbeschreibung des Ladens: "Gemüse · Getränke · Verpackungen"
+- Gemüse und Obst
 - Getränke: Softdrinks, Wasser, Bier – im Kistenpreis (z. B. Coca-Cola 12x1,0 l ab 16,50 EUR inkl. Pfand)
-- Lebensmittel & Import: Käse, Ayran, Joghurt in 10-kg-Eimern, Oliven, Konserven, türkische Spezialitäten
-- Gastrobedarf & Einweg: Servietten, Salatboxen, Menüboxen, Alu-Schalen, Becher
+- Lebensmittel & Import: Käse, Ayran, Joghurt in 10-kg-Eimern, Oliven, Öl, Tee, Datteln, Konserven, türkische Spezialitäten
+- Verpackungen & Einweg: Servietten, Salatboxen, Menüboxen, Alu-Schalen, Becher, Pizzakartons
 - Haushalt & Reinigung: Toilettenpapier, Handtuchrollen, Reinigungsmittel
+
+## Social
+- Facebook: https://www.facebook.com/people/MY-Depot/100063640085350/
 
 ## Seiten
 - [Startseite](https://fidanajeti2009-web.github.io/im-getraenke-depot/): Sortiment, Beispielpreise, Großbestellung, Anfahrt

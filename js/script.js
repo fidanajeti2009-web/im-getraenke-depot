@@ -90,3 +90,22 @@ if (mapConsent && mapLoadBtn) {
 // Hero gestaffelt einblenden, sobald die Seite steht.
 const heroInner = document.querySelector(".hero-inner");
 if (heroInner) requestAnimationFrame(() => heroInner.classList.add("entered"));
+
+// "Jetzt geöffnet" / "Gerade geschlossen".
+// Grundlage sind die Öffnungszeiten Mo-Sa 08:00-20:00. Gerechnet wird mit der
+// Uhrzeit des Besuchers - für einen Laden mit lokaler Kundschaft genau richtig.
+// Feiertage kennt die Logik nicht, deshalb steht der Hinweis darunter.
+(function () {
+  const badges = [document.getElementById("openNow"), document.getElementById("openNow2")]
+    .filter(Boolean);
+  if (!badges.length) return;
+  const now = new Date();
+  const minutes = now.getHours() * 60 + now.getMinutes();
+  const istSonntag = now.getDay() === 0;
+  const offen = !istSonntag && minutes >= 8 * 60 && minutes < 20 * 60;
+  badges.forEach((el) => {
+    el.textContent = offen ? "Jetzt geöffnet" : "Gerade geschlossen";
+    el.classList.add(offen ? "is-open" : "is-closed");
+    el.hidden = false;
+  });
+})();

@@ -1,3 +1,23 @@
+## ✅ ABSCHLUSS-DURCHGANG (2026-09-02, Laptop Adam)
+
+Die Seite noch einmal komplett aus Kundensicht durchgegangen. Vier Sachen sind
+aufgefallen und behoben:
+
+1. **Der Knopf „Großbestellung anfragen" sprang nur zum Kontaktblock**, obwohl direkt
+   daneben stand „Rufen Sie uns einfach an". Jetzt wählt er die Nummer direkt
+   (`tel:`-Link), daneben steht ein zweiter Knopf „Adresse & Zeiten".
+2. **Die Telefonnummer war nur ganz unten zu finden.** Sie steht jetzt zusätzlich groß
+   im Hero, im Sortiment-Hinweis und im Kontaktblock — überall antippbar.
+3. **„Jetzt geöffnet" / „Gerade geschlossen"** wird im Hero und bei den Öffnungszeiten
+   automatisch angezeigt (Mo–Sa 8–20). Rechnet mit der Uhrzeit des Besuchers, Feiertage
+   kennt die Logik nicht — deshalb steht der Hinweis darunter.
+4. **Das mittlere Sortiment-Foto war eine weiße Preistafel** und sah billig aus. Ersetzt
+   durch einen Ausschnitt aus dem Lagerfoto: volle Regalreihe mit Gläsern und Konserven
+   (`assets/img/regal-konserven.jpg/.webp`).
+   `sortiment-lebensmittel.jpg` liegt noch im Repo, wird aber nicht mehr verwendet.
+
+Außerdem: Öffnungszeiten-Tabelle auf zwei Zeilen gekürzt (Mo–Sa war zweimal dasselbe).
+
 # Sync-Punkt für beide Claude-Instanzen
 
 Dieses Projekt wird von zwei Personen an zwei Rechnern gebaut, jede mit eigenem Claude.

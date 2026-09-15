@@ -1,3 +1,28 @@
+## 📸 FASSADEN-FOTO ERSETZT (2026-09-15, Laptop Fidan)
+
+`assets/img/fassade.jpg/.webp` war bisher ein enger Ausschnitt der Schaufenster-Tafeln
+(kam auch schon von Facebook, war aber unnötig knapp zugeschnitten und nur 1100×1100).
+Jetzt eingebaut: das bessere Original-Foto von der Facebook-Seite (Album „Profilbilder"),
+das den **ganzen Eingang** zeigt — Rolltor, Fassadenschild „my DEPOT", die drei
+Werbetafeln (Verpackungen/Getränke/Gemüse) und die Warenauslage davor. Neu 960×960,
+direkt vom Original heruntergeladen (nicht nur ein Screenshot), Alt-Text und
+Bildunterschrift im Anfahrt-Abschnitt angepasst.
+
+Zusätzlich: `assets/img/logo-social.jpg` (1200×628) ist neu — eine scharfe Nahaufnahme
+des „my DEPOT"-Schriftzugs von der Fassade, ebenfalls von Facebook. Eingebunden als
+`og:image` (Link-Vorschau bei WhatsApp/Facebook) statt des bisherigen Lagerfotos, und
+als JSON-LD-Bild zeigt jetzt das neue Fassadenfoto statt des Lagerfotos — beides ist für
+diese Zwecke (Wiedererkennung des Ladens) treffender als ein Regalfoto.
+
+**Bewusst NICHT ersetzt:** `hero-lager.jpg`, `grosslieferung.jpg`, `regal-konserven.jpg`
+und die drei `sortiment-*.jpg` — dafür gibt es auf der Facebook-Seite keine Entsprechung
+(dort liegen nur Fassaden-/Logo-Fotos und alte Prospekt-Grafiken mit Aktionspreisen, siehe
+Nachtrag unten). Diese Fotos sind weiterhin die eigenen Praktikums-Aufnahmen.
+
+**Nebenbefund:** Auf der Facebook-Seite steht inzwischen auch ein Instagram-Handle
+„MydepotGmbH" (unter Kontaktinformationen) — bisher nirgends auf der Seite verlinkt,
+noch nicht übernommen, da unbestätigt ob aktuell genutzt.
+
 ## ✅ ABSCHLUSS-DURCHGANG (2026-09-02, Laptop Adam)
 
 Die Seite noch einmal komplett aus Kundensicht durchgegangen. Vier Sachen sind

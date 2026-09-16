@@ -1,3 +1,42 @@
+# 🧭 STAND AUF EINEN BLICK (Stand 2026-09-16)
+
+*Diese Datei ist chronologisch gewachsen und liest sich von oben nach unten rückwärts.
+Dieser Block fasst zusammen, was aktuell gilt — darunter stehen die Einzeleinträge als Detail.*
+
+**Wo das Projekt steht:** Die Seite ist inhaltlich und optisch fertig. Alles ist committet und
+auf GitHub (`main`, letzter Commit 2026-09-15: Hero-Bild = Facebook-Ladenfront, Fassadenfoto
+= Fenster-Nahaufnahme). Arbeitsbaum sauber, nichts Offenes lokal.
+
+**Was gesichert gilt (bitte nicht wieder umdrehen):**
+- Laden: **my DEPOT**, Odenwaldring 86, 63069 Offenbach am Main — durch Google Maps, Facebook
+  und das eigene Prospekt belegt. Darmstadt/Berliner Allee war der *Lieferant*, nicht der Laden.
+- Telefon **0177 3651650**, Öffnungszeiten **Mo–Sa 08:00–20:00**, Sonntag zu.
+- Stack bleibt plain HTML/CSS/JS, Schriften selbst gehostet (kein Google-Fonts-CDN).
+
+**Was die Veröffentlichung blockiert (Reihenfolge = Priorität):**
+1. **Impressum unvollständig** → Seite darf so nicht online (§ 5 DDG). Offen in `impressum.html`:
+   vollständiger Firmenname + Rechtsform, „Vertreten durch", E-Mail, Registergericht + HRB,
+   USt-IdNr., inhaltlich Verantwortlicher. Alle Stellen sind mit `class="tbd"` markiert.
+2. **GitHub Pages ist bewusst noch AUS** — erst aktivieren, wenn Punkt 1 erledigt ist.
+3. Preise und Sortiment vom Chef gegenprüfen lassen.
+
+**Kleinere offene Fragen an den Betrieb:**
+- Welcher Name ist der aktuelle: „my DEPOT" oder „I.M Getränke Depot"? (aktuell my DEPOT,
+  I.M als `alternateName` im JSON-LD)
+- Zweite Nummer vom Prospekt **0157 83311831** — welche stimmt?
+- Instagram: Handles `MydepotGmbH`, `imgetrankedepot`, `i.mgetranke_depot` sind unbestätigt,
+  deshalb nirgends verlinkt.
+
+**Nicht anfassen:**
+- `assets/img/lager-aktion.jpg` liegt im Repo, ist absichtlich nirgends eingebunden
+  (erkennbare Personen, keine Einwilligung).
+- Fotos/Videos vom Praktikum liegen außerhalb des Repos (`Fachabitur\Praktikum Bilder` bzw.
+  `Praktikum Videos`) und gehören da auch hin — zu groß fürs Repo.
+- Bei eigener Domain müssen vier Stellen angepasst werden: `sitemap.xml`, `robots.txt`,
+  `llms.txt`, JSON-LD in `index.html`.
+
+---
+
 ## 📸 FASSADEN-FOTO ERSETZT (2026-09-15, Laptop Fidan)
 
 `assets/img/fassade.jpg/.webp` war bisher ein enger Ausschnitt der Schaufenster-Tafeln
